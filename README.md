@@ -1,4 +1,42 @@
 # URL Shortener
+# URL Shortener
+
+A simple and feature-rich URL shortener web application built with **Flask** and **SQLite**.
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [License](#license)
+
+## Features
+
+- 🔗 Shortens long URLs to clean, shareable links.
+- 🗃 Stores and manages URLs using SQLite.
+- 📈 Dashboard to view, edit, and delete all shortened URLs.
+- 📤 Export URL data from the dashboard to a downloadable **PDF**.
+- 💬 Submit user feedback directly from the homepage.
+- 📸 Generate and download **QR codes** for shortened links.
+
+## Prerequisites
+
+Ensure the following are installed on your machine:
+
+- **Python 3.x**: [Download Python](https://www.python.org/downloads/)
+- **Flask**: Install using `pip install flask`
+- **qrcode**: Install using `pip install qrcode[pil]`
+- **reportlab**: Install using `pip install reportlab`
+- **SQLite**: Comes preinstalled with Python
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ezhil56x/URL-Shortener.git
 
 This is a simple URL shortener web application built with Flask and SQLite.
 
